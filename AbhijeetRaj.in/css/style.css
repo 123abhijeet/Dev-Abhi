@@ -68,6 +68,10 @@ header{
 svg{
     margin:-13px -15px;
 }
+.responsive-menu{
+    text-decoration:none;
+    display: none;
+}
 .fa-angle-right{
     float:right;
 }
