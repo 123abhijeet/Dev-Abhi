@@ -92,19 +92,20 @@ svg{
     width: 70px;
     height: 60px;
     position: absolute;
-    top: 1px;
+    top: 2px;
     left: 30px;
     border-radius: 50%;
 }
-.navbar .logotext{
+.logotext{
     font-size: 12px;
     position: absolute;
-    top:60px;
+    top:58px;
     left:30px;
     font-family: 'Bree Serif', serif;
     color:white;
     font-style: italic;
 }
+/* Search Box Starts*/
 header .search-box{
     position:absolute;
     top:50%;
@@ -140,6 +141,8 @@ header .search-txt{
     line-height: 20px;
     width:150px;
 }
+/* Search Box Ends */
+
 /* Body section */
 #home{
     display:grid;
