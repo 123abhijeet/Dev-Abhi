@@ -1,0 +1,144 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat;
+    background: repeating-linear-gradient(45deg, black, #413d48 100px);
+    background-position: center;
+    background-size: 107px 108px;
+    background-attachment: fixed;
+}
+
+#logo img {
+    width: 100px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: 60px;
+    left: 37%;
+    border: 5px solid #fff;
+}
+
+#logo h3 {
+    color: #fff;
+    position: absolute;
+    top: 122px;
+    left: 38.6%;
+    text-align: center;
+}
+
+#home ul {
+    display: flex;
+    padding: 0px 11px;
+    cursor: pointer;
+}
+
+#home ul li {
+    text-align: center;
+    list-style: none;
+    color: #fff;
+    background-color: #000;
+    margin: 200px 2px;
+    border: 2px solid #fff;
+    padding: 5px 6px;
+    border-radius: 30px;
+}
+
+#home ul li a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #fff;
+}
+
+#home .fa:before {
+    margin-right: 4px;
+}
+
+.card {
+    background: white;
+    width: 400px;
+    margin: 7px auto;
+    padding: 0px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.card2 {
+
+    width: 400px;
+    height: 500px;
+    overflow: hidden;
+    margin: 20px auto;
+    z-index: 0;
+    opacity:1.4;
+    background: url('../img/bg1.jpg');
+    background-size: 100% 100%;
+    color: white;
+    padding: 0px 0px 27px;
+}
+
+#home .address {
+    display: flex;
+    flex-direction: column;
+    margin-top: -120px;
+}
+
+#home .address a {
+    color: #fff;
+    text-decoration: none;
+    width: -1px;
+    height: 45px;
+    display: flex;
+    border-radius: 50%;
+    margin-left: 35px;
+    cursor:auto;
+}
+#home .address .fa{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:35px;
+    width:35px;
+    margin-right:18px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin:-15px 12px;
+}
+#footer {
+    background-color: rgb(0, 255, 242);
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    margin: -28px 0px;
+}
+
+nav .fa::before {
+    font-size: 25px;
+    padding: 32px;
+}
+
+nav ul {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 15px 20px;
+    padding: 25px 10px;
+}
+
+nav ul li:hover {
+    background-color: #fff;
+    color: black;
+    border-radius: 50%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
