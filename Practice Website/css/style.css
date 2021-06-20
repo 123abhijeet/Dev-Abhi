@@ -1,3 +1,5 @@
+/* CSS Reset */
+
 html {
     scroll-behavior: smooth;
 }
@@ -12,6 +14,9 @@ body {
     background-attachment: fixed;
 }
 
+
+/* Home Section */
+
 #logo img {
     width: 100px;
     height: 70px;
@@ -19,15 +24,13 @@ body {
     position: absolute;
     top: 60px;
     left: 37%;
-    border: 5px solid #fff;
 }
 
 #logo h3 {
     color: #fff;
     position: absolute;
-    top: 122px;
-    left: 38.6%;
-    text-align: center;
+    top: 102px;
+    left: 38%;
 }
 
 #home ul {
@@ -57,24 +60,14 @@ body {
     margin-right: 4px;
 }
 
-.card {
-    background: white;
-    width: 400px;
-    margin: 7px auto;
-    padding: 0px;
-    border-radius: 6px;
-    overflow: hidden;
-    text-align: center;
-}
-
-.card2 {
+#home {
     width: 400px;
     height: 500px;
     overflow: hidden;
-    margin: 20px auto;
+    margin: 0px auto;
     z-index: 0;
     opacity: 1.4;
-    background: url('../img/bg1.jpg');
+    background-color: rgb(183, 0, 255);
     background-size: 100% 100%;
     color: white;
     padding: 0px 0px 27px;
@@ -97,6 +90,15 @@ body {
     cursor: auto;
 }
 
+#home .address i:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+#home .address a:hover {
+    padding-left: 8px;
+}
+
 #home .address .fa {
     display: flex;
     align-items: center;
@@ -110,14 +112,104 @@ body {
 }
 
 
-/* Contact Us Section */
+/* Videos Section starts */
 
-#contact h2 {
-    background-color: #000;
-    color: #fff;
-    margin-top: 0px;
-    height: 40px;
+#videos iframe {
+    width: 350px;
+    height: 200px;
+    border: 2px solid rgb(0, 255, 0);
+    border-radius: 8px;
 }
+
+
+/* Videos section ends */
+
+
+/* Offers section starts */
+
+#offers img {
+    width: 180px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+/* Offers section ends */
+
+
+/* About us section starts */
+
+#about {
+    font-family: 'Bree Serif', serif;
+}
+
+
+/* About us section ends */
+
+
+/* Gallery Section starts */
+
+#gallery #gallery-image {
+    display: flex;
+    flex-direction: column;
+}
+
+#gallery #gallery-image img {
+    width: 80%;
+    height: 150px;
+    margin: 5px 42px;
+}
+
+
+/* Gallery Section ends */
+
+
+/* Services section starts */
+
+#services #service-img img {
+    width: 380px;
+    height: 180px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#services #service-img h3 {
+    text-align: left;
+    margin: 5px 12px;
+}
+
+#services #service-img p {
+    font-family: 'Bree Serif', serif;
+}
+
+
+/* Services section ends */
+
+
+/* Payment section starts */
+
+#payment h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: gray;
+    width: 72%;
+    margin: 5px 0px;
+}
+
+#payment img {
+    width: 350px;
+    height: 300px;
+    filter: invert(100%);
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+
+/* Payment section ends*/
+
+
+/* Contact Us Section starts*/
 
 #contact .contact-box .form-group {
     padding: 3px;
@@ -136,7 +228,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* padding-bottom: 34px; */
 }
 
 .contact-box form {
@@ -159,11 +250,18 @@ body {
 
 span {
     position: absolute;
-    top: 24px;
-    left: 59%;
+    top: 2px;
+    left: 58.2%;
+    font-weight: bold;
+    font-family: 'Bree Serif', serif;
 }
 
-.sample {}
+#credit {
+    background-color: #000;
+    color: #fff;
+    margin: 25px -30px;
+    padding: 14px 17px;
+}
 
 
 /* Contact us Ends */
@@ -172,6 +270,10 @@ span {
     position: fixed;
     bottom: 0px;
     left: 0px;
+}
+
+.navbar {
+    overflow-x: auto;
 }
 
 .navbar {
@@ -197,4 +299,25 @@ span {
 .navbar .fa::before {
     font-size: 20px;
     margin: 56px;
+}
+
+
+/* Utility Section */
+
+.card {
+    background: white;
+    width: 400px;
+    margin: 7px auto;
+    padding: 0px;
+    border-radius: 6px;
+    overflow: hidden;
+    text-align: center;
+}
+
+h2 {
+    background-color: #000;
+    color: #fff;
+    margin-top: 0px;
+    height: 40px;
+    padding-top: 10px;
 }

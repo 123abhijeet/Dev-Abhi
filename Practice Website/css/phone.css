@@ -1,0 +1,42 @@
+/* CSS Reset */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat;
+    background: repeating-linear-gradient(45deg, rgb(235, 16, 16), #413d48 100px);
+    background-position: center;
+    background-size: 107px 108px;
+    background-attachment: fixed;
+}
+
+
+/* Home Section */
+
+#logo img {
+    width: 100px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: 45px;
+    left: 0%;
+}
+
+#logo h3 {
+    color: #fff;
+    position: absolute;
+    top: 90px;
+    left: 5%;
+}
+
+span {
+    position: absolute;
+    top: 2px;
+    left: 78%;
+    font-weight: bold;
+    font-family: 'Bree Serif', serif;
+}
