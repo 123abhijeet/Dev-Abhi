@@ -68,78 +68,10 @@ span {
 
 /* Footer and navigation */
 
-#footer {
-    background-color: green;
-}
-
 .navbar {
-    overflow: auto;
-    white-space: nowrap;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    overflow-x: scroll;
+    width: 400px;
 }
-
-.navbar ul {
-    display: inline-flex;
-    list-style: none;
-}
-
-.navbar ul li {
-    width: 32px;
-    margin: 6px 6px;
-}
-
-.navbar ul li a {
-    margin: 6px 6px;
-    padding: 10px 10px;
-}
-
-.navbar .fa::before {
-    font-size: 20px;
-    margin: 26px 25px;
-    padding: 25px 25px;
-}
-
-
-/* .navbar ul {
-    display: inline-flex;
-    list-style: none;
-}
-
-.navbar ul li {
-    width: 30px;
-    margin: 6px 26px;
-}
-
-.navbar a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
-}
-
-.navbar .fa::before {
-    font-size: 20px;
-    margin: 26px 25px;
-    padding: 25px 25px;
-} */
-
-
-/* .navbar ul {
-    display: inline-flex;
-    list-style: none;
-}
-
-.navbar ul li {
-    width: 130px;
-    margin: 17px;
-}
-
-.navbar ul li a {
-    text-decoration: none;
-    color: #000;
-}
-
-.navbar .fa::before {
-    font-size: 20px;
-    margin: 56px;
-} */

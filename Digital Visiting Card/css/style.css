@@ -297,10 +297,6 @@ span {
 }
 
 .navbar {
-    overflow-x: auto;
-}
-
-.navbar {
     background: turquoise;
     text-align: center;
 }
