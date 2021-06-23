@@ -11,24 +11,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/d28edfe8d9.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" media="screen and (max-width:1170px)" href="css/phone.css">
     <title>Home</title>
 </head>
 
 <body>
+    <div id="preloader">
+        <i class="fa fa-spinner"></i>
+    </div>
     <header>
         <div class="navigation">
             <div class="logo">
                 <img src="img/logo.jpg" alt="">
-                <span class="logotext">My Company</span>
+                <span class="logotext">WebTech IT Sol.</span>
             </div>
-            <a href="#" class="responsive-menu">
+            <!-- <a href="#" class="responsive-menu">
                 <svg width="30" height="30">
                     <path d="M0,5 30,5" stroke="#000" stroke-width="5" />
                     <path d="M0,14 30,14" stroke="#000" stroke-width="5" />
                     <path d="M0,23 30,23" stroke="#000" stroke-width="5" />
                 </svg>
-            </a>
+            </a> -->
             <div class="navbar">
                 <ul>
                     <li><a href="#home"><i class="fa fa-home"></i>Home</a></li>
@@ -83,26 +85,18 @@
         <div class="item"></div>
         <div class="item">
             <h1>Leading website development company</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero adipisci error, illum aspernatur vero id
-                nesciunt? Ab magnam quod at accusamus soluta officia. Cupiditate voluptas consequatur qui, aliquam
-                perferendis nulla repellendus omnis rerum quam aperiam amet, voluptatem quae ab eligendi. Lorem, ipsum
-                dolor
-                sit amet consectetur adipisicing elit. Reprehenderit nostrum amet sapiente quidem velit facilis dicta
-                nesciunt dignissimos nulla impedit nihil minima eaque, eius deleniti distinctio doloremque iure harum
-                unde.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero adipisci error, illum aspernatur vero id nesciunt? Ab magnam quod at accusamus soluta officia. Cupiditate voluptas consequatur qui, aliquam perferendis nulla repellendus omnis
+                rerum quam aperiam amet, voluptatem quae ab eligendi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nostrum amet sapiente quidem velit facilis dicta nesciunt dignissimos nulla impedit nihil minima eaque, eius
+                deleniti distinctio doloremque iure harum unde.
+            </p>
         </div>
     </div>
     <div id="about">
         <div id="team-section">
             <div class="item">
                 <h1>Our Team</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit doloremque accusantium accusamus
-                    quisquam
-                    porro, veritatis impedit nesciunt harum? Pariatur perferendis ipsam aliquid et libero nostrum
-                    asperiores
-                    possimus cum. Velit ullam, illo reprehenderit odit cumque voluptatum rem ducimus unde quasi a
-                    blanditiis
-                    delectus maiores iste sunt nobis quisquam necessitatibus?</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit doloremque accusantium accusamus quisquam porro, veritatis impedit nesciunt harum? Pariatur perferendis ipsam aliquid et libero nostrum asperiores possimus cum. Velit ullam,
+                    illo reprehenderit odit cumque voluptatum rem ducimus unde quasi a blanditiis delectus maiores iste sunt nobis quisquam necessitatibus?</p>
             </div>
         </div>
         <div id="team-detail">
@@ -135,25 +129,20 @@
     </div>
     <div id="services">
         <h1>Services we provide</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit doloremque accusantium accusamus
-            quisquam porro, veritatis impedit nesciunt harum? Pariatur perferendis ipsam aliquid et libero nostrum
-            asperiores possimus cum. Velit ullam, illo reprehenderit odit cumque voluptatum rem ducimus unde quasi a
-            blanditiis delectus maiores iste sunt nobis quisquam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit doloremque accusantium accusamus quisquam porro, veritatis impedit nesciunt harum? Pariatur perferendis ipsam aliquid et libero nostrum asperiores possimus cum. Velit ullam, illo reprehenderit
+            odit cumque voluptatum rem ducimus unde quasi a blanditiis delectus maiores iste sunt nobis quisquam.</p>
         <div id="service-container">
             <div class="item">
                 <img src="img/service1.jpg" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero temporibus dolorum accusantium
-                    architecto eligendi rerum veniam ipsam voluptatem facere. Voluptate?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero temporibus dolorum accusantium architecto eligendi rerum veniam ipsam voluptatem facere. Voluptate?</p>
             </div>
             <div class="item">
                 <img src="img/service2.jpg" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero temporibus dolorum accusantium
-                    architecto eligendi rerum veniam ipsam voluptatem facere. Voluptate?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero temporibus dolorum accusantium architecto eligendi rerum veniam ipsam voluptatem facere. Voluptate?</p>
             </div>
             <div class="item">
                 <img src="img/service3.png" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero temporibus dolorum accusantium
-                    architecto eligendi rerum veniam ipsam voluptatem facere. Voluptate?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero temporibus dolorum accusantium architecto eligendi rerum veniam ipsam voluptatem facere. Voluptate?</p>
             </div>
         </div>
     </div>
@@ -204,13 +193,21 @@
             </div>
             <div class="copy">
                 <p> Copyright &copy;
-                    <script>document.write(new Date().getFullYear())</script> Developed and Maintained by <strong>Abhijeet</strong>
+                    <script>
+                        document.write(new Date().getFullYear())
+                    </script> Developed and Maintained by <strong>Abhijeet</strong>
                 </p>
                 <!-- <strong>Copyright &copy; @php echo date('Y'); @endphp <a href="#">Korawan India IT Solution</a>.</strong>
                 All rights reserved. -->
             </div>
         </div>
     </footer>
+    <script>
+        let preloader = document.getElementById('preloader');
+        window.addEventListener("load", function() {
+            preloader.style.display = "none";
+        })
+    </script>
 </body>
 
 </html>
